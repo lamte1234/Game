@@ -373,6 +373,13 @@
         "metadata": "",
         "name": "Sound\\wrong.wav",
         "userAdded": true
+      },
+      {
+        "file": "Sound/Winning-sound-effect.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound\\Winning-sound-effect.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -561,7 +568,7 @@
           "MarginTop": 400,
           "MarginBottom": 700,
           "MarginLeft": 440,
-          "MarginRight": 680
+          "MarginRight": 670
         }
       ],
       "animations": [
@@ -1776,7 +1783,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarScene"
+                "value": "ModVarGlobal"
               },
               "parameters": [
                 "score",
@@ -2005,6 +2012,32 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "score",
+                        "+",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlayMusic"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\correct.wav",
+                        "",
+                        "100",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "ChangePlan"
                       },
                       "parameters": [
@@ -2029,24 +2062,12 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "score",
-                        "+",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "ChangeAnimation"
                       },
                       "parameters": [
                         "Scrollbar",
                         "=",
-                        "Variable(score)"
+                        "GlobalVariable(score)"
                       ],
                       "subInstructions": []
                     },
@@ -2065,14 +2086,14 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "PlayMusic"
+                        "value": "MettreXY"
                       },
                       "parameters": [
-                        "",
-                        "Sound\\correct.wav",
-                        "",
-                        "100",
-                        ""
+                        "ball",
+                        "=",
+                        "445",
+                        "=",
+                        "317"
                       ],
                       "subInstructions": []
                     }
@@ -2091,7 +2112,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "VarScene"
+                "value": "VarGlobal"
               },
               "parameters": [
                 "score",
@@ -2131,7 +2152,7 @@
               "parameters": [
                 "Score",
                 "=",
-                "ToString(Variable(score))"
+                "ToString(GlobalVariable(score))"
               ],
               "subInstructions": []
             },
@@ -3208,6 +3229,40 @@
               "events": []
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Sound\\Winning-sound-effect.mp3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
