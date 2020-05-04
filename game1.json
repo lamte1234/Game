@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "portrait",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\leduc\\OneDrive\\Máy tính\\gamegame\\Game\\game1.json",
+    "projectFile": "C:\\Users\\ADMIN\\Desktop\\Game\\game1.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -1140,6 +1140,33 @@
         "name": "image\\circle2png.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "image/canvans1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "image\\canvans1.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "image/back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "image\\back.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "image/2 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "image\\2 (1).png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1232,7 +1259,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "image\\btnBack.png",
+                  "image": "image\\back.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1903,14 +1930,89 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 73,
+          "height": 1441,
+          "layer": "",
+          "locked": false,
+          "name": "canvans1",
+          "width": 2423,
+          "x": -234,
+          "y": -150,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "KhungGame1",
+          "width": 0,
+          "x": 310,
+          "y": 350,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "KhungGame2",
+          "width": 0,
+          "x": 842,
+          "y": 338,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "KhungGame3",
+          "width": 0,
+          "x": 1340,
+          "y": 341,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TieuDe",
+          "width": 0,
+          "x": 716,
+          "y": 123,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "locked": false,
           "name": "textgame1",
-          "width": 239,
-          "x": 250,
-          "y": 780,
-          "zOrder": 4,
+          "width": 0,
+          "x": 316,
+          "y": 607,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1923,9 +2025,9 @@
           "locked": false,
           "name": "textgame2",
           "width": 0,
-          "x": 740,
-          "y": 780,
-          "zOrder": 5,
+          "x": 735,
+          "y": 610,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1938,89 +2040,9 @@
           "locked": false,
           "name": "textgame3",
           "width": 0,
-          "x": 1350,
-          "y": 780,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Variable",
-              "value": ""
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 1313,
-          "layer": "",
-          "locked": false,
-          "name": "BackGround",
-          "width": 2125,
-          "x": -102,
-          "y": -185,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 153,
-          "layer": "",
-          "locked": false,
-          "name": "TieuDe",
-          "width": 622,
-          "x": 657,
-          "y": 194,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 400,
-          "layer": "",
-          "locked": false,
-          "name": "KhungGame1",
-          "width": 400,
-          "x": 167,
-          "y": 355,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 438,
-          "layer": "",
-          "locked": false,
-          "name": "KhungGame2",
-          "width": 440,
-          "x": 729,
-          "y": 348,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 439,
-          "layer": "",
-          "locked": false,
-          "name": "KhungGame3",
-          "width": 453,
-          "x": 1326,
-          "y": 347,
-          "zOrder": 10,
+          "x": 1277,
+          "y": 613,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2293,6 +2315,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "image\\KhungGame3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "canvans1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "image\\canvans1.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2611,7 +2672,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "StayOnScreen",
+          "type": "StayOnScreen::StayOnScreen"
+        }
+      ]
     },
     {
       "b": 209,
@@ -2637,7 +2703,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.5884
+        "zoomFactor": 0.4144
       },
       "objectsGroups": [],
       "variables": [
@@ -2738,12 +2804,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 70,
+          "height": 41,
           "layer": "",
           "locked": false,
           "name": "backButton",
-          "width": 70,
-          "x": 418,
+          "width": 84,
+          "x": 413,
           "y": 163,
           "zOrder": 8,
           "numberProperties": [],
@@ -3837,7 +3903,7 @@
               },
               "parameters": [
                 "",
-                "\"gotomenugame\"",
+                "\"menuGame\"",
                 ""
               ],
               "subInstructions": []
@@ -3954,8 +4020,8 @@
           "locked": false,
           "name": "canvas",
           "width": 1641,
-          "x": 283,
-          "y": 70,
+          "x": 145,
+          "y": 63,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -3964,12 +4030,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 91,
+          "height": 68,
           "layer": "",
           "locked": false,
           "name": "track",
           "width": 1642,
-          "x": 286,
+          "x": 148,
           "y": 755,
           "zOrder": 5,
           "numberProperties": [],
@@ -3984,8 +4050,8 @@
           "locked": false,
           "name": "head",
           "width": 200,
-          "x": 394,
-          "y": 686,
+          "x": 233,
+          "y": 670,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -3994,13 +4060,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 70,
+          "height": 48,
           "layer": "",
           "locked": false,
           "name": "back",
-          "width": 90,
-          "x": 294,
-          "y": 84,
+          "width": 143,
+          "x": 153,
+          "y": 77,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -4014,8 +4080,8 @@
           "locked": false,
           "name": "abc",
           "width": 600,
-          "x": 773,
-          "y": 99,
+          "x": 691,
+          "y": 96,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -4029,8 +4095,8 @@
           "locked": false,
           "name": "Socau",
           "width": 600,
-          "x": 765,
-          "y": 98,
+          "x": 686,
+          "y": 95,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -4044,8 +4110,8 @@
           "locked": false,
           "name": "tieude",
           "width": 1023,
-          "x": 571,
-          "y": 134,
+          "x": 515,
+          "y": 137,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -4286,7 +4352,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "image\\btnBack.png",
+                      "image": "image\\back.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4777,6 +4843,54 @@
               ]
             }
           ]
+        },
+        {
+          "name": "NewObject",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "name": "abcd",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "image\\2 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -4875,7 +4989,7 @@
               "parameters": [
                 "",
                 "start",
-                "850",
+                "650",
                 "250",
                 ""
               ],
@@ -5027,7 +5141,7 @@
                   "parameters": [
                     "",
                     "one",
-                    "450",
+                    "350",
                     "400",
                     ""
                   ],
@@ -5053,7 +5167,7 @@
                   "parameters": [
                     "",
                     "two",
-                    "700\n",
+                    "600\n",
                     "200",
                     ""
                   ],
@@ -5079,7 +5193,7 @@
                   "parameters": [
                     "",
                     "three",
-                    "950",
+                    "850",
                     "400",
                     ""
                   ],
@@ -5105,7 +5219,7 @@
                   "parameters": [
                     "",
                     "for",
-                    "1200",
+                    "1100",
                     "200",
                     ""
                   ],
@@ -5131,7 +5245,7 @@
                   "parameters": [
                     "",
                     "five",
-                    "1450",
+                    "1350",
                     "400",
                     ""
                   ],
@@ -5144,6 +5258,32 @@
                   },
                   "parameters": [
                     "five",
+                    "=",
+                    "30"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "abcd",
+                    "480",
+                    "774",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "abcd",
                     "=",
                     "30"
                   ],
@@ -5433,14 +5573,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "two",
                         "=",
-                        "636",
+                        "480",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -5465,6 +5616,32 @@
                         "kt2",
                         "=",
                         "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "705",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -5697,14 +5874,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "one",
                         "=",
-                        "861",
+                        "705",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -5729,6 +5917,32 @@
                         "kt3",
                         "=",
                         "4"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "930",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -5901,14 +6115,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "three",
                         "=",
-                        "861+225",
+                        "930",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -5933,6 +6158,32 @@
                         "kt4",
                         "=",
                         "6"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "1155",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -6045,14 +6296,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "five",
                         "=",
-                        "861+225+225",
+                        "1155",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -6065,6 +6327,32 @@
                         "kt4",
                         "=",
                         "7"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "1380",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -6117,14 +6405,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "for",
                         "=",
-                        "861+225*3",
+                        "1380",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -6244,7 +6543,7 @@
                       "parameters": [
                         "head",
                         "-300",
-                        "780",
+                        "747",
                         "300",
                         ""
                       ],
@@ -6258,7 +6557,7 @@
                       "parameters": [
                         "two",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -6272,7 +6571,7 @@
                       "parameters": [
                         "three",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -6286,7 +6585,7 @@
                       "parameters": [
                         "for",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -6300,7 +6599,7 @@
                       "parameters": [
                         "five",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -6314,7 +6613,7 @@
                       "parameters": [
                         "one",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -6382,7 +6681,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "StayOnScreen",
+          "type": "StayOnScreen::StayOnScreen"
+        }
+      ]
     },
     {
       "b": 209,
@@ -6466,8 +6770,8 @@
           "locked": false,
           "name": "canvas",
           "width": 1641,
-          "x": 289,
-          "y": 67,
+          "x": 147,
+          "y": 80,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -6476,13 +6780,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 73,
+          "height": 68,
           "layer": "",
           "locked": false,
           "name": "track",
           "width": 1642,
-          "x": 290,
-          "y": 777,
+          "x": 148,
+          "y": 755,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -6496,8 +6800,8 @@
           "locked": false,
           "name": "head",
           "width": 200,
-          "x": 391,
-          "y": 692,
+          "x": 233,
+          "y": 670,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -6506,13 +6810,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 70,
+          "height": 44,
           "layer": "",
           "locked": false,
           "name": "back",
-          "width": 90,
-          "x": 294,
-          "y": 84,
+          "width": 120,
+          "x": 160,
+          "y": 93,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -6798,7 +7102,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "image\\btnBack.png",
+                      "image": "image\\back.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7260,6 +7564,45 @@
               ]
             }
           ]
+        },
+        {
+          "name": "abcd",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "image\\2 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -7357,7 +7700,7 @@
                   "parameters": [
                     "",
                     "one",
-                    "450",
+                    "350",
                     "400",
                     ""
                   ],
@@ -7383,7 +7726,7 @@
                   "parameters": [
                     "",
                     "two",
-                    "700\n",
+                    "600\n",
                     "200",
                     ""
                   ],
@@ -7409,7 +7752,7 @@
                   "parameters": [
                     "",
                     "three",
-                    "950",
+                    "850",
                     "400",
                     ""
                   ],
@@ -7435,7 +7778,7 @@
                   "parameters": [
                     "",
                     "for",
-                    "1200",
+                    "1100",
                     "200",
                     ""
                   ],
@@ -7461,7 +7804,7 @@
                   "parameters": [
                     "",
                     "five",
-                    "1450",
+                    "1350",
                     "400",
                     ""
                   ],
@@ -7474,6 +7817,32 @@
                   },
                   "parameters": [
                     "five",
+                    "=",
+                    "30"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "abcd",
+                    "480",
+                    "774",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "abcd",
                     "=",
                     "30"
                   ],
@@ -7763,14 +8132,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "five",
                         "=",
-                        "636",
+                        "480",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -7795,6 +8175,32 @@
                         "kt2",
                         "=",
                         "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "705",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -8027,14 +8433,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "two",
                         "=",
-                        "861",
+                        "705",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -8059,6 +8476,32 @@
                         "kt3",
                         "=",
                         "4"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "930",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -8231,14 +8674,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "one",
                         "=",
-                        "861+225",
+                        "930",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -8263,6 +8717,32 @@
                         "kt4",
                         "=",
                         "6"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "1155",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -8375,14 +8855,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "three",
                         "=",
-                        "861+225+225",
+                        "1155",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -8395,6 +8886,32 @@
                         "kt4",
                         "=",
                         "7"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "1380",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -8447,14 +8964,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "for",
                         "=",
-                        "861+225*3",
+                        "1380",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -8562,7 +9090,7 @@
                       "parameters": [
                         "head",
                         "-300",
-                        "780",
+                        "747",
                         "300",
                         ""
                       ],
@@ -8576,7 +9104,7 @@
                       "parameters": [
                         "two",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -8590,7 +9118,7 @@
                       "parameters": [
                         "three",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -8604,7 +9132,7 @@
                       "parameters": [
                         "for",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -8618,7 +9146,7 @@
                       "parameters": [
                         "five",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -8632,7 +9160,7 @@
                       "parameters": [
                         "one",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -8700,7 +9228,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "StayOnScreen",
+          "type": "StayOnScreen::StayOnScreen"
+        }
+      ]
     },
     {
       "b": 209,
@@ -8784,8 +9317,8 @@
           "locked": false,
           "name": "canvas",
           "width": 1641,
-          "x": 289,
-          "y": 67,
+          "x": 141,
+          "y": 59,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -8794,13 +9327,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 73,
+          "height": 68,
           "layer": "",
           "locked": false,
           "name": "track",
           "width": 1642,
-          "x": 290,
-          "y": 777,
+          "x": 148,
+          "y": 755,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -8814,8 +9347,8 @@
           "locked": false,
           "name": "head",
           "width": 200,
-          "x": 391,
-          "y": 692,
+          "x": 233,
+          "y": 670,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -8824,13 +9357,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 70,
+          "height": 46,
           "layer": "",
           "locked": false,
           "name": "back",
-          "width": 90,
-          "x": 294,
-          "y": 84,
+          "width": 133,
+          "x": 149,
+          "y": 64,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -8844,7 +9377,7 @@
           "locked": false,
           "name": "tieude",
           "width": 1023,
-          "x": 584,
+          "x": 529,
           "y": 138,
           "zOrder": 13,
           "numberProperties": [],
@@ -8859,8 +9392,8 @@
           "locked": false,
           "name": "abc",
           "width": 600,
-          "x": 773,
-          "y": 99,
+          "x": 664,
+          "y": 83,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -8874,8 +9407,8 @@
           "locked": false,
           "name": "Socau",
           "width": 600,
-          "x": 765,
-          "y": 98,
+          "x": 667,
+          "y": 82,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -9116,7 +9649,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "image\\btnBack.png",
+                      "image": "image\\back.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9549,6 +10082,45 @@
               ]
             }
           ]
+        },
+        {
+          "name": "abcd",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "image\\2 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -9646,7 +10218,7 @@
                   "parameters": [
                     "",
                     "one",
-                    "450",
+                    "350\n",
                     "400",
                     ""
                   ],
@@ -9672,7 +10244,7 @@
                   "parameters": [
                     "",
                     "two",
-                    "700\n",
+                    "600\n",
                     "200",
                     ""
                   ],
@@ -9698,7 +10270,7 @@
                   "parameters": [
                     "",
                     "three",
-                    "950",
+                    "850",
                     "400",
                     ""
                   ],
@@ -9724,7 +10296,7 @@
                   "parameters": [
                     "",
                     "for",
-                    "1200",
+                    "1100",
                     "200",
                     ""
                   ],
@@ -9750,7 +10322,7 @@
                   "parameters": [
                     "",
                     "five",
-                    "1450",
+                    "1350",
                     "400",
                     ""
                   ],
@@ -9763,6 +10335,32 @@
                   },
                   "parameters": [
                     "five",
+                    "=",
+                    "30"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "abcd",
+                    "480",
+                    "774",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "abcd",
                     "=",
                     "30"
                   ],
@@ -10052,14 +10650,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "one",
                         "=",
-                        "636",
+                        "480",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -10084,6 +10693,32 @@
                         "kt2",
                         "=",
                         "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "705",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -10316,14 +10951,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "three",
                         "=",
-                        "861",
+                        "705",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -10348,6 +10994,32 @@
                         "kt3",
                         "=",
                         "4"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "930",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -10520,14 +11192,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "for",
                         "=",
-                        "861+225",
+                        "930",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -10568,6 +11251,32 @@
                         "6"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "1155",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -10678,14 +11387,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "five",
                         "=",
-                        "861+225*2",
+                        "1155",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -10698,6 +11418,32 @@
                         "kt4",
                         "=",
                         "7"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "1380",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -10750,14 +11496,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "two",
                         "=",
-                        "861+225*3",
+                        "1380",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -10865,7 +11622,7 @@
                       "parameters": [
                         "head",
                         "-300",
-                        "780",
+                        "747",
                         "300",
                         ""
                       ],
@@ -10879,7 +11636,7 @@
                       "parameters": [
                         "two",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -10893,7 +11650,7 @@
                       "parameters": [
                         "three",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -10907,7 +11664,7 @@
                       "parameters": [
                         "for",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -10921,7 +11678,7 @@
                       "parameters": [
                         "five",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -10935,7 +11692,7 @@
                       "parameters": [
                         "one",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -11003,7 +11760,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "StayOnScreen",
+          "type": "StayOnScreen::StayOnScreen"
+        }
+      ]
     },
     {
       "b": 209,
@@ -11087,8 +11849,8 @@
           "locked": false,
           "name": "canvas",
           "width": 1641,
-          "x": 289,
-          "y": 67,
+          "x": 145,
+          "y": 62,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -11097,13 +11859,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 73,
+          "height": 68,
           "layer": "",
           "locked": false,
           "name": "track",
           "width": 1642,
-          "x": 290,
-          "y": 777,
+          "x": 148,
+          "y": 755,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -11117,8 +11879,8 @@
           "locked": false,
           "name": "head",
           "width": 200,
-          "x": 391,
-          "y": 692,
+          "x": 233,
+          "y": 670,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -11127,12 +11889,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 70,
+          "height": 46,
           "layer": "",
           "locked": false,
           "name": "back",
-          "width": 90,
-          "x": 294,
+          "width": 128,
+          "x": 159,
           "y": 84,
           "zOrder": 12,
           "numberProperties": [],
@@ -11147,7 +11909,7 @@
           "locked": false,
           "name": "tieude",
           "width": 905,
-          "x": 624,
+          "x": 537,
           "y": 128,
           "zOrder": 13,
           "numberProperties": [],
@@ -11162,8 +11924,8 @@
           "locked": false,
           "name": "abc",
           "width": 600,
-          "x": 773,
-          "y": 99,
+          "x": 662,
+          "y": 80,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -11177,8 +11939,8 @@
           "locked": false,
           "name": "Socau",
           "width": 600,
-          "x": 765,
-          "y": 98,
+          "x": 654,
+          "y": 79,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -11419,7 +12181,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "image\\btnBack.png",
+                      "image": "image\\back.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11794,6 +12556,45 @@
               ]
             }
           ]
+        },
+        {
+          "name": "abcd",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "image\\2 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -11891,7 +12692,7 @@
                   "parameters": [
                     "",
                     "one",
-                    "450",
+                    "350",
                     "400",
                     ""
                   ],
@@ -11917,7 +12718,7 @@
                   "parameters": [
                     "",
                     "two",
-                    "700\n",
+                    "600\n",
                     "200",
                     ""
                   ],
@@ -11943,7 +12744,7 @@
                   "parameters": [
                     "",
                     "three",
-                    "950",
+                    "850",
                     "400",
                     ""
                   ],
@@ -11969,7 +12770,7 @@
                   "parameters": [
                     "",
                     "for",
-                    "1200",
+                    "1100",
                     "200",
                     ""
                   ],
@@ -11995,7 +12796,7 @@
                   "parameters": [
                     "",
                     "five",
-                    "1450",
+                    "1350",
                     "400",
                     ""
                   ],
@@ -12008,6 +12809,32 @@
                   },
                   "parameters": [
                     "five",
+                    "=",
+                    "30"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "abcd",
+                    "480",
+                    "774",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "abcd",
                     "=",
                     "30"
                   ],
@@ -12297,14 +13124,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "two",
                         "=",
-                        "636",
+                        "480",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -12329,6 +13167,32 @@
                         "kt2",
                         "=",
                         "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "705",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -12561,14 +13425,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "five",
                         "=",
-                        "861",
+                        "705",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -12593,6 +13468,32 @@
                         "kt3",
                         "=",
                         "4"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "930",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -12765,14 +13666,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "one",
                         "=",
-                        "861+225",
+                        "930",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -12797,6 +13709,32 @@
                         "kt4",
                         "=",
                         "6"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "1155",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -12909,14 +13847,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "three",
                         "=",
-                        "861+225*2",
+                        "1155",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -12929,6 +13878,32 @@
                         "kt4",
                         "=",
                         "7"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "1380",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -12986,9 +13961,9 @@
                       "parameters": [
                         "for",
                         "=",
-                        "861+225*3",
+                        "1380",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -13065,6 +14040,17 @@
                         "31"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -13096,7 +14082,7 @@
                       "parameters": [
                         "head",
                         "-300",
-                        "780",
+                        "747",
                         "300",
                         ""
                       ],
@@ -13110,7 +14096,7 @@
                       "parameters": [
                         "two",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -13124,7 +14110,7 @@
                       "parameters": [
                         "three",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -13138,7 +14124,7 @@
                       "parameters": [
                         "for",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -13152,7 +14138,7 @@
                       "parameters": [
                         "five",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -13166,7 +14152,7 @@
                       "parameters": [
                         "one",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -13234,7 +14220,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "StayOnScreen",
+          "type": "StayOnScreen::StayOnScreen"
+        }
+      ]
     },
     {
       "b": 209,
@@ -13318,8 +14309,8 @@
           "locked": false,
           "name": "canvas",
           "width": 1641,
-          "x": 289,
-          "y": 67,
+          "x": 146,
+          "y": 63,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -13328,13 +14319,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 73,
+          "height": 68,
           "layer": "",
           "locked": false,
           "name": "track",
           "width": 1642,
-          "x": 290,
-          "y": 777,
+          "x": 148,
+          "y": 755,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -13348,8 +14339,8 @@
           "locked": false,
           "name": "head",
           "width": 200,
-          "x": 391,
-          "y": 692,
+          "x": 233,
+          "y": 670,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13358,13 +14349,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 70,
+          "height": 45,
           "layer": "",
           "locked": false,
           "name": "back",
-          "width": 90,
-          "x": 294,
-          "y": 84,
+          "width": 94,
+          "x": 173,
+          "y": 80,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -13378,7 +14369,7 @@
           "locked": false,
           "name": "tieude",
           "width": 932,
-          "x": 612,
+          "x": 512,
           "y": 131,
           "zOrder": 13,
           "numberProperties": [],
@@ -13393,8 +14384,8 @@
           "locked": false,
           "name": "abc",
           "width": 600,
-          "x": 773,
-          "y": 99,
+          "x": 641,
+          "y": 78,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -13408,8 +14399,8 @@
           "locked": false,
           "name": "Socau",
           "width": 600,
-          "x": 765,
-          "y": 98,
+          "x": 637,
+          "y": 77,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -13650,7 +14641,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "image\\btnBack.png",
+                      "image": "image\\back.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14025,6 +15016,45 @@
               ]
             }
           ]
+        },
+        {
+          "name": "abcd",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "image\\2 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -14122,7 +15152,7 @@
                   "parameters": [
                     "",
                     "one",
-                    "450",
+                    "350",
                     "400",
                     ""
                   ],
@@ -14148,7 +15178,7 @@
                   "parameters": [
                     "",
                     "two",
-                    "700\n",
+                    "600\n",
                     "200",
                     ""
                   ],
@@ -14174,7 +15204,7 @@
                   "parameters": [
                     "",
                     "three",
-                    "950",
+                    "850",
                     "400",
                     ""
                   ],
@@ -14200,7 +15230,7 @@
                   "parameters": [
                     "",
                     "for",
-                    "1200",
+                    "1100",
                     "200",
                     ""
                   ],
@@ -14226,7 +15256,7 @@
                   "parameters": [
                     "",
                     "five",
-                    "1450",
+                    "1350",
                     "400",
                     ""
                   ],
@@ -14239,6 +15269,32 @@
                   },
                   "parameters": [
                     "five",
+                    "=",
+                    "30"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "abcd",
+                    "480",
+                    "774",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "abcd",
                     "=",
                     "30"
                   ],
@@ -14528,14 +15584,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "two",
                         "=",
-                        "636",
+                        "480",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -14560,6 +15627,32 @@
                         "kt2",
                         "=",
                         "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "705",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -14792,14 +15885,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "five",
                         "=",
-                        "861",
+                        "705",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -14824,6 +15928,32 @@
                         "kt3",
                         "=",
                         "4"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "930",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -14996,14 +16126,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "MettreXY"
+                        "value": "Delete"
                       },
                       "parameters": [
-                        "for",
-                        "=",
-                        "861+225",
-                        "=",
-                        "610"
+                        "abcd",
+                        ""
                       ],
                       "subInstructions": []
                     },
@@ -15013,11 +16140,11 @@
                         "value": "MettreXY"
                       },
                       "parameters": [
-                        "text4",
+                        "for",
                         "=",
-                        "for.X()+80",
+                        "930",
                         "=",
-                        "for.Y()+12"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -15042,6 +16169,32 @@
                         "kt4",
                         "=",
                         "6"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "1155",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -15154,14 +16307,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "one",
                         "=",
-                        "861+225*2",
+                        "1155",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -15174,6 +16338,32 @@
                         "kt4",
                         "=",
                         "7"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "abcd",
+                        "1380",
+                        "774",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "abcd",
+                        "=",
+                        "30"
                       ],
                       "subInstructions": []
                     }
@@ -15226,14 +16416,25 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "abcd",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "MettreXY"
                       },
                       "parameters": [
                         "three",
                         "=",
-                        "861+225*3",
+                        "1380",
                         "=",
-                        "610"
+                        "585"
                       ],
                       "subInstructions": []
                     },
@@ -15341,7 +16542,7 @@
                       "parameters": [
                         "head",
                         "-300",
-                        "780",
+                        "747",
                         "300",
                         ""
                       ],
@@ -15355,7 +16556,7 @@
                       "parameters": [
                         "two",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -15369,7 +16570,7 @@
                       "parameters": [
                         "three",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -15383,7 +16584,7 @@
                       "parameters": [
                         "for",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -15397,7 +16598,7 @@
                       "parameters": [
                         "five",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -15411,7 +16612,7 @@
                       "parameters": [
                         "one",
                         "-300",
-                        "730",
+                        "707",
                         "300",
                         ""
                       ],
@@ -15479,7 +16680,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "StayOnScreen",
+          "type": "StayOnScreen::StayOnScreen"
+        }
+      ]
     },
     {
       "b": 209,
@@ -15518,8 +16724,8 @@
           "locked": false,
           "name": "NewObject",
           "width": 1473,
-          "x": 350,
-          "y": 81,
+          "x": 249,
+          "y": 116,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -15533,8 +16739,8 @@
           "locked": false,
           "name": "bg1",
           "width": 0,
-          "x": 703,
-          "y": 123,
+          "x": 613,
+          "y": 143,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -15548,8 +16754,8 @@
           "locked": false,
           "name": "goto1",
           "width": 412,
-          "x": 838,
-          "y": 661,
+          "x": 768,
+          "y": 653,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -15768,7 +16974,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.46
+        "zoomFactor": 0.376
       },
       "objectsGroups": [
         {
@@ -15935,13 +17141,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 89,
+          "height": 49,
           "layer": "",
           "locked": false,
           "name": "backButton",
-          "width": 99,
-          "x": 383,
-          "y": 130,
+          "width": 107,
+          "x": 388,
+          "y": 135,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
